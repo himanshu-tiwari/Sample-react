@@ -10,7 +10,7 @@ const Contributors = ({ contributors }) => {
 			</div>
 		);
 	});
-
+	
 	return(
 		<div className="contributor-list">
 			{ contributorList }
