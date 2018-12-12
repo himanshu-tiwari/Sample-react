@@ -7,7 +7,7 @@ class App extends Component {
             <div className="App">
                 <h1>Sample React Application</h1>
                 <p>Contributors:-</p>
-                <Contributor />
+                <Contributor name='Himanshu Tiwari' username='himanshu-tiwari' access='write' />
             </div>
         );
     }
