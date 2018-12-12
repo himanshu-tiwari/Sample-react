@@ -2,11 +2,12 @@ import React, { Component } from 'react';
 
 class Contributor extends Component {
 	render() {
+		const { name, username, access } = this.props;
 		return(
 			<div className="contributors">
-				<div>Name: { this.props.name }</div>
-				<div>Username: { this.props.username }</div>
-				<div>Access Level: { this.props.access }</div>
+				<div>Name: { name }</div>
+				<div>Username: { username }</div>
+				<div>Access Level: { access }</div>
 			</div>
 		);
 	}
